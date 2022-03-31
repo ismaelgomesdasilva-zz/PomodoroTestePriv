@@ -1,0 +1,164 @@
+.Neumor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #3C4262;
+    box-shadow:  36px 36px 71px #2b3047,
+                 -36px -36px 71px #3b405f;
+}
+.Neumor p{
+    font-weight: 700;
+    font-size: 70px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+h3{
+    color:#24a35f;
+    font-size: 40px;
+    margin-bottom: 5px;
+    
+}
+.h3orange{
+    color: #CFAF51;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.button-time{
+    width: 80px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}.button-time svg polygon{
+    stroke: #A3A6B5;
+    stroke-width: 3px;
+    
+}
+.reticencias{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.reticenciasOrage{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.reticencias div {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #24a35f;
+    margin-bottom: 20px;
+}
+.reticenciasOrage div {
+    
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #CFAF51;
+    margin-bottom: 20px;
+}
+.re-cinza{
+    background-color: #3C4262 !important;
+}
+a{
+    text-decoration: none;
+}
+.header-time{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    
+    
+   
+}
+.header-time h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+}
+.header-time button{
+    cursor: pointer;
+}
+.Neumor-Green{
+    
+    position: absolute;
+    border: 3px solid #24a35f;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    animation: pulse-green 2s infinite;
+    
+}
+.Neumor-orange{
+    position: absolute;
+    border: 3px solid #CFAF51;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    animation: pulse-orange 2s infinite;
+}
+
+@keyframes pulse-orange {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 #CFAF51;
+    }
+    
+    70% {
+      transform: scale(1.1);
+      box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+    }
+    
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+    }
+  }
+
+
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(51, 217, 51);
+  }
+  
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+  }
+  
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+  }
+}
+
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-time{
+        display: block;
+        margin-bottom: 50px;
+        width: auto;
+    }
+    .header-time h1{
+        margin-bottom: 30px;
+    }
+       
+}
