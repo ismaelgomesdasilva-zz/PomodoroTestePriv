@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# GCB Test: Pomodoro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./" width="800px" height="400px" alt="Gif do Teste">
 
-## Available Scripts
+>  O projeto é um site que utiliza do método do Pomodoro.
 
-In the project directory, you can run:
+Check the Application: LINK DO NETLIFY <br>
+Video showing the application: LINK DO VÌDEO
+## :page_facing_up: Explanation
 
-### `npm start`
+O projeto foi desenvolvido a partir de um teste para a GCB, a qual tinha que desenvolver um site com a técnica do pomodoro.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A técnica consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O projeto inicia com uma tela que determina os tempos. Eles vêm com um padrão de 25 minutos de trabalho, 5 minutos de repouso e 3 sessões, porém o usuário pode alterar esses valores com as setas de incrementar (Para cima) e decrementar (Para baixo) ao lado. Observação: Não tem como deixar os valores negativos.
 
-### `npm test`
+Após escolher o tempo, o usuário deve clicar no botão Continuar logo abaixo. Assim, será direcionado para o temporizador. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The site consists of X different pages:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Page 1:** 
+- **Page 2:** 
+- **Page 3:** 
 
-### `npm run eject`
+## :dart: Features ##
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:heavy_check_mark: Estruturação da aplicação;\
+:heavy_check_mark: X;\
+:heavy_check_mark: X;\
+:heavy_check_mark: X;\
+:heavy_check_mark: X;\
+:heavy_check_mark: X;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :rocket: Technologies ##
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The following tools were used in this project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/html/)  
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
+- [React](https://pt-br.reactjs.org/)
 
-## Learn More
+## :closed_book: Requirements ##
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :checkered_flag: Starting ##
 
-### Code Splitting
+```bash
+# Clone this project
+$ git clone https://github.com/ismaelgomesdasilva/pomodoroteste
+# Access
+$ cd teste-gcb
+# Install dependencies
+$ yarn or npm 
+# Run the project
+$ yarn start or npm start 
+# The server will initialize in the <http://localhost:3000>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Collaborators
 
-### Analyzing the Bundle Size
+We thank the following people who contributed to this project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/97638555?v=4" width="140px;" alt="Foto do Kayke Fujinaka no GitHub"/><br>
+        <sub>
+          <b>Ismael Gomes da Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### Making a Progressive Web App
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is under license. See the [LICENSE](LICENSE.md) file for more details.
 
-### Advanced Configuration
+&#xa0;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a>

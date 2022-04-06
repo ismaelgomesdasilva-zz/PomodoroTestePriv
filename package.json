@@ -9,11 +9,16 @@
     "@testing-library/user-event": "^13.5.0",
     "node-modules": "^1.0.1",
     "react": "^17.0.2",
+    "react-audio-player": "^0.17.0",
+    "react-circular-progressbar": "^2.0.4",
     "react-dom": "^17.0.2",
+    "react-h5-audio-player": "^3.8.3",
     "react-icons": "^4.3.1",
     "react-router-dom": "5.3.0",
     "react-scripts": "^2.1.3",
     "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.8",
+    "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

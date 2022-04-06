@@ -22,7 +22,8 @@
 h3{
     color:#24a35f;
     font-size: 40px;
-    margin-bottom: 5px;
+    margin: 10px auto;
+    text-align: center;
     
 }
 .h3orange{
@@ -43,16 +44,12 @@ h3{
     stroke-width: 3px;
     
 }
-.reticencias{
+.reticencias, .reticenciasOrage{
     display: flex;
     gap: 10px;
     justify-content: center;
 }
-.reticenciasOrage{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
+
 .reticencias div {
     width: 10px;
     height: 10px;
@@ -68,8 +65,8 @@ h3{
     background-color: #CFAF51;
     margin-bottom: 20px;
 }
-.re-cinza{
-    background-color: #3C4262 !important;
+div.re-cinza{
+    background-color: #3C4262 ;
 }
 a{
     text-decoration: none;
@@ -79,6 +76,7 @@ a{
     display: flex;
     justify-content: space-around;
     width: 1300px;
+    align-items: center;
     
     
    
@@ -99,7 +97,18 @@ a{
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    animation: pulse-green 2s infinite;
+    animation: pulse-green 1.2s ease-in-out infinite;
+    
+}
+.Neumor-Green-nopulse{
+    
+    position: absolute;
+    z-index: 1;
+    border: 3px solid #24a35f;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
     
 }
 .Neumor-orange{
@@ -108,7 +117,16 @@ a{
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    animation: pulse-orange 2s infinite;
+    animation: pulse-orange 1.2s ease-in-out infinite;
+}
+.Neumor-orange-nopulse{
+    position: absolute;
+    z-index: 1;
+    border: 3px solid #CFAF51;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
 }
 
 @keyframes pulse-orange {
@@ -154,11 +172,13 @@ a{
     }
     .header-time{
         display: block;
-        margin-bottom: 50px;
+        margin: 50px auto;
         width: auto;
     }
     .header-time h1{
+        
         margin-bottom: 30px;
+
     }
        
 }
