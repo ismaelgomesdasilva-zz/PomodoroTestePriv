@@ -1,6 +1,6 @@
 # GCB Test: Pomodoro
 
-<img src="./Demonstração.gif" alt="Gif do Teste">
+<video src="./Demonstração.gif" alt="Gif do Teste">
 
 >  O projeto é um site que utiliza do método do Pomodoro.
 
