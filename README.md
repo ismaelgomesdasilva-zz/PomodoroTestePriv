@@ -1,11 +1,10 @@
 # GCB Test: Pomodoro
 
-<img src="./" width="800px" height="400px" alt="Gif do Teste">
+<img src="./src/gif/Demonstração.gif" width="800px" height="400px" alt="Gif do Teste">
 
 >  O projeto é um site que utiliza do método do Pomodoro.
 
-Check the Application: LINK DO NETLIFY <br>
-Video showing the application: LINK DO VÌDEO
+Check the Application: https://pomodorowithreact.netlify.app/ <br>
 ## :page_facing_up: Explanation
 
 O projeto foi desenvolvido a partir de um teste para a GCB, a qual tinha que desenvolver um site com a técnica do pomodoro.
@@ -15,6 +14,8 @@ A técnica consiste na utilização de um cronômetro para dividir o trabalho em
 O projeto inicia com uma tela que determina os tempos. Eles vêm com um padrão de 25 minutos de trabalho, 5 minutos de repouso e 3 sessões, porém o usuário pode alterar esses valores com as setas de incrementar (Para cima) e decrementar (Para baixo) ao lado. Observação: Não tem como deixar os valores negativos.
 
 Após escolher o tempo, o usuário deve clicar no botão Continuar logo abaixo. Assim, será direcionado para o temporizador. 
+Após o tempo de trabalho, soará um alarme e será direcionado para o tempo de pausa. Seguindo a mesma logica para o tempo de pausa, após o alarme o aplicativo irá identificar se ainda restam sessões, se sim, ele passa para a proxima sessão, se não ele irá 
+redirecionar para a pagina inicial. 
 
 
 
@@ -22,18 +23,10 @@ Após escolher o tempo, o usuário deve clicar no botão Continuar logo abaixo. 
 
 The site consists of X different pages:
 
-- **Page 1:** 
-- **Page 2:** 
-- **Page 3:** 
+- **Page 1: Pagina Home, aonde o usuario irá setar os valores.  
+- **Page 2: Pagina de trabalho, aonde o contador de trabalho será iniciado.
+- **Page 3: Pagina de Pausa, aonde o usuario irá tirar o tempo de pausa.
 
-## :dart: Features ##
-
-:heavy_check_mark: Estruturação da aplicação;\
-:heavy_check_mark: X;\
-:heavy_check_mark: X;\
-:heavy_check_mark: X;\
-:heavy_check_mark: X;\
-:heavy_check_mark: X;
 
 ## :rocket: Technologies ##
 
@@ -84,5 +77,3 @@ We thank the following people who contributed to this project:
 This project is under license. See the [LICENSE](LICENSE.md) file for more details.
 
 &#xa0;
-
-<a href="#top">Back to top</a>
