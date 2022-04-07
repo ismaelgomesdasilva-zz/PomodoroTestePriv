@@ -7,15 +7,13 @@
 Check the Application: https://pomodorowithreact.netlify.app/ <br>
 ## :page_facing_up: Explanation
 
-O projeto foi desenvolvido a partir de um teste para a GCB, a qual tinha que desenvolver um site com a técnica do pomodoro.
+The project was developed from a test for GCB, which had to develop a website with the pomodoro technique.
 
-A técnica consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos.
+The technique consists of using a stopwatch to divide the work into 25-minute periods, separated by short breaks.
 
-O projeto inicia com uma tela que determina os tempos. Eles vêm com um padrão de 25 minutos de trabalho, 5 minutos de repouso e 3 sessões, porém o usuário pode alterar esses valores com as setas de incrementar (Para cima) e decrementar (Para baixo) ao lado. Observação: Não tem como deixar os valores negativos.
+The project starts with a screen that determines the times. They come with a default of 25 minutes of work, 5 minutes of sleep and 3 sessions, however the user can change these values ​​with the increment (Up) and decrement (Up) arrows on the side. Note: There is no way to leave negative values.
 
-Após escolher o tempo, o usuário deve clicar no botão Continuar logo abaixo. Assim, será direcionado para o temporizador. 
-Após o tempo de trabalho, soará um alarme e será direcionado para o tempo de pausa. Seguindo a mesma logica para o tempo de pausa, após o alarme o aplicativo irá identificar se ainda restam sessões, se sim, ele passa para a proxima sessão, se não ele irá 
-redirecionar para a pagina inicial. 
+After choosing the time, the user must click on the Continue button below. Thus, it will be directed to the future. After the working time, an alarm will sound and you will be directed to the break time. Following the same logic for the pause time, after the alarm the application will identify if there are still left for initial sessions, if yes, it will not redirect to paging. 
 
 
 
@@ -23,9 +21,10 @@ redirecionar para a pagina inicial.
 
 The site consists of X different pages:
 
-- **Page 1: Pagina Home, aonde o usuario irá setar os valores.  
-- **Page 2: Pagina de trabalho, aonde o contador de trabalho será iniciado.
-- **Page 3: Pagina de Pausa, aonde o usuario irá tirar o tempo de pausa.
+
+- **Page 1: Home page, where the user will set the values.
+- **Page 2: Job page, where the job counter will be started.
+- **Page 3: Pause Page, where the user will take the pause time.
 
 
 ## :rocket: Technologies ##
@@ -63,7 +62,7 @@ We thank the following people who contributed to this project:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/97638555?v=4" width="140px;" alt="Foto do Kayke Fujinaka no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/97638555?v=4" width="140px;" alt="Foto do ismael no GitHub"/><br>
         <sub>
           <b>Ismael Gomes da Silva</b>
         </sub>
