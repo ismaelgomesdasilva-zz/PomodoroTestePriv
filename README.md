@@ -2,7 +2,7 @@
 
 <img src="./Demonstração.gif" width="800px" height="600px" alt="Gif do Teste">
 
->  O projeto é um site que utiliza do método do Pomodoro.
+> The project is a website that uses the Pomodoro method.
 
 Check the Application: https://pomodorowithreact.netlify.app/ <br>
 ## :page_facing_up: Explanation
